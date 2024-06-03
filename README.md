@@ -1,7 +1,37 @@
 ### The link to the site = https://movie-library-bdzr.onrender.com/
 
+# Key Features
 
-#### The site gives an amazing user experience where a user can create an account, can search for different movies where they are displayed in a nice and interactive manner.The user is allowed to create a playlist, add movies to the playlist, delete movies from the playlist, and also create and delete new playlist of his choice.
+### 1. Intuitive Navbar:
+Navigate the site seamlessly with our navbar, featuring a logo, the app name **(CineApp)**, and options for Login and Sign Up.
+
+### 2. Sign-Up Process:
+Register as a new user to unlock the complete functionality of Mighty Movie.
+
+### 3. Seamless Authentication:
+Upon logging in, your profile name will appear on the navbar, along with an option to log out.
+
+### 4. Advanced Movie Search:
+Use the homepage search bar to find movies. Results are pulled from the OMDB API and presented in an appealing card format.
+
+### 5. Comprehensive Movie Info:
+Each movie card displays crucial details, including the Title, Year, Type, and a Poster.
+
+### 6. Efficient Playlist Management:
+Logged-in users can add movies to existing playlists through a dropdown or create new playlists to organize their selections.
+
+### 7. Organized Playlist View:
+View your created playlists at the bottom of the main page. Each playlist has a Show Playlist button to reveal all its movies.
+
+### 8. Flexible Playlist Editing:
+Manage your playlists by removing individual movies or deleting entire playlists as needed.
+
+
+
+
+
+
+
 
 
 # Steps to use the Site :
