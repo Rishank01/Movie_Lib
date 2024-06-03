@@ -59,11 +59,11 @@ const Navbar = ({ setUserIsLoggedIn }) => {
                 {!isLoggedIn ? (
                     <>
                         <Link to="/login">Login</Link>
-                        <a href="/signup">Signup</a>
+                        <Link to="/signup">Signup</Link>
                     </>
                 ) : (
                     <div className='side-icons'>
-                        <a href="/" style = {{paddingRight : "1.5rem"}}>{username}</a>
+                        <Link to="/" style = {{paddingRight : "1.5rem"}}>{username}</Link>
                         <button onClick={handleLogout} className='logOutbtn'>Logout</button>
                     </div>
                 )}
