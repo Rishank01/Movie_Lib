@@ -17,7 +17,7 @@ function HomePage({ setMovies, setUserIsLoggedIn, userIsLoggedIn }) {
 
     const fetchPlaylists = async () => {
         try {
-            const res = await fetch('http://localhost:4000/playlist/get');
+            const res = await fetch('https://movie-lib-api.onrender.com/playlist/get');
             if (res.ok) {
                 const data = await res.json();
                 setPlaylist(data.data); 

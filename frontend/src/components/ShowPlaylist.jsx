@@ -52,7 +52,7 @@ const ShowPlaylist = ({ playlists, setPlaylist}) => {
 
     const deletePlaylist = async (playlistId) => {
         try {
-            const response = await fetch(`http://localhost:4000/playlist/${playlistId}`, {
+            const response = await fetch(`https://movie-lib-api.onrender.com/playlist/${playlistId}`, {
                 method: 'DELETE',
             });
 
@@ -69,7 +69,7 @@ const ShowPlaylist = ({ playlists, setPlaylist}) => {
 
     const deleteMovie = async (playlistId, imdbID) => {
         try {
-            const response = await fetch(`http://localhost:4000/playlist/${playlistId}/movies/${imdbID}`, {
+            const response = await fetch(`https://movie-lib-api.onrender.com/playlist/${playlistId}/movies/${imdbID}`, {
                 method: 'DELETE',
             });
 

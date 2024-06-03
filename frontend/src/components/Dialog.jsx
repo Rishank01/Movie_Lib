@@ -16,7 +16,7 @@ function Dialog({ movie, onClose }) {
 
     const fetchPlaylists = async () => {
         try {
-            const res = await fetch('http://localhost:4000/playlist/get');
+            const res = await fetch('https://movie-lib-api.onrender.com/playlist/get');
             if (res.ok) {
                 const data = await res.json();
                 setExistingPlaylists(data.data); 
@@ -48,7 +48,7 @@ function Dialog({ movie, onClose }) {
             title: playlistName,
         };
         try {
-            const res = await fetch('http://localhost:4000/playlist/create', {
+            const res = await fetch('https://movie-lib-api.onrender.com/playlist/create', {
                 method: 'POST',
                 headers: { 
                     'Content-type': 'application/json',
@@ -74,7 +74,7 @@ function Dialog({ movie, onClose }) {
 
             const data = movie;
 
-            const res = await fetch(`http://localhost:4000/playlist/update/${selectedPlaylist}`, {
+            const res = await fetch(`https://movie-lib-api.onrender.com/playlist/update/${selectedPlaylist}`, {
                 method: 'PUT',
                 headers: { 'Content-type': 'application/json' },
                 body: JSON.stringify(data),
