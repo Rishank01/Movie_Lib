@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from '../images/rishh_logo2.png';
 import '../CSS/Navbar.css';
 
+
 const Navbar = ({ setUserIsLoggedIn }) => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -56,7 +57,7 @@ const Navbar = ({ setUserIsLoggedIn }) => {
             <div className="navbar-links">
                 {!isLoggedIn ? (
                     <>
-                        <a href="/login">Login</a>
+                        <Link to="/login">Login</Link>
                         <a href="/signup">Signup</a>
                     </>
                 ) : (
