@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../images/rishh_logo2.png';
 import '../CSS/Navbar.css';
+import Link from 'react-router-dom';
 
 
 const Navbar = ({ setUserIsLoggedIn }) => {
