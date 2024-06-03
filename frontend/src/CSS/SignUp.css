@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bgg {
+    height: 99vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url('../images/bgmain.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form1 {
+    margin : auto;
+    margin-top: 7rem;
+    max-width: 300px;
+    padding: 3rem;
+    padding-top: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+div {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
+
+.loginbtn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.loginbtn:hover {
+    background-color: rgb(255, 51, 51);
+}
+
+p {
+    margin-top: 1rem;
+    text-align: center;
+}
